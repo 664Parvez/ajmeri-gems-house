@@ -4,7 +4,7 @@
 	--black-color: #000000;
     --white-color: #ffffff;
 	--offwhite-color: #d6d6d6;
-	--first-color: #CA416E;
+	--first-color: #e62844;
 	--second-color: #2F3192;
     --div-color-one: #d9d9ff;
     --div-color-two: #ffd8e5;
@@ -523,6 +523,21 @@ p {
 /* FAQ */
 
 
+/* Video */
+#video_page {
+    padding: 60px 0;
+}
+#video_page iframe {
+    border-radius: 5px;
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+   #video_page {
+        padding: 30px 0;
+   } 
+}
+/* Video */
+
+
 /* Cart */
 #cart_is_empty {
     padding: 60px 0;
@@ -561,7 +576,7 @@ p {
     color: var(--white-color);
 }
 #cart_on_product tr th a i {
-    color: var(--red-color);
+    color: var(--second-color);
 }
 #cart_on_product .cart_img {
     width: 80px;
