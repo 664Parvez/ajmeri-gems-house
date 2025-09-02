@@ -100,7 +100,7 @@ p {
 }
 .appointment_btn {
     background-color: var(--white-color);
-    margin-left: 30px;
+    margin-left: 20px;
     border-radius: 5px;
     color: var(--first-color);
 }
