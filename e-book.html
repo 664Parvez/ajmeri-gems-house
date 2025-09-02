@@ -12,6 +12,9 @@
     <!-- Fontawsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Light Box -->
+    <link rel="stylesheet" href="./public/css/lightbox.min.css">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/css/style.css">
 
@@ -148,7 +151,24 @@
      <section>
         <div id="e-book_section">
             <div class="container">
-                
+                <iframe src="./public/file/PDF-Content.pdf" width="100%" scrolling="auto" height="800px" frameborder="0"></iframe>
+            </div>
+        </div>
+     </section>
+
+     <section>
+        <div id="e-book_second_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <a href="./public/img/pro4.webp" data-lightbox="mygallery" data-title="Logo">
+                            <img src="./public/img/pro4.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6"></div>
+                    <div class="col-lg-4 col-md-6"></div>
+                    <div class="col-lg-4 col-md-6"></div>
+                </div>
             </div>
         </div>
      </section>
@@ -244,6 +264,9 @@
     </button>
     <!-- Back to Top -->
 
+
+    <!-- Light Box -->
+    <script src="./public/js/lightbox-plus-jquery.min.js"></script>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

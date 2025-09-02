@@ -919,6 +919,27 @@ p {
 /* Single Blog */
 
 
+/* E-Book Page */
+#e-book_section {
+    padding: 50px 0;
+}
+#e-book_second_section {
+    padding: 50px 0;
+}
+#e-book_second_section img {
+    border-radius: 5px;
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #e-book_section {
+        padding: 30px 0;
+    }
+    #e-book_second_section {
+        padding: 30px 0;
+    }
+}
+/* E-Book Page */
+
+
 /* Login */
 #login_section {
     padding: 60px 0;
