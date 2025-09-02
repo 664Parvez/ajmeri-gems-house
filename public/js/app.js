@@ -15,4 +15,3 @@ const popupClose = document.getElementById("popup_close")
 popupClose.addEventListener("click", () => {
     popup.style.display = "none"
 })
-
