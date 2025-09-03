@@ -311,94 +311,205 @@ p {
 }
 
 
-/* About Us Page */
-#about_first_section {
-    padding: 60px 0;
+/* Liton Page */
+#liton_first_section {
+    padding: 50px 0;
 }
-#about_first_section h4 {
+#liton_first_section h4 {
     font-size: 30px;
     font-weight: 600;
 }
 
-#about_second_section {
-    padding: 60px 0;
+#liton_second_section {
+    padding: 50px 0;
 }
-#about_second_section h5 {
+#liton_second_section h5 {
     font-size: 23px;
     font-weight: 600;
 }
-#about_second_section h4 {
+#liton_second_section h4 {
     font-weight: 600;
 }
-#about_second_section h2 {
-    font-size: 60px;
+#liton_second_section h2 {
+    font-size: 50px;
     color: var(--red-color);
     font-weight: 600;
+}
+#liton_second_section img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#liton_third_section {
+    background-color: var(--div-color-one);
+    border-radius: 10px;
+    padding: 50px;
+}
+#liton_third_section h4 {
+    color: var(--black-color);
+    font-size: 23px;
+    font-weight: 600;
+}
+#liton_third_section p {
+    color: var(--black-color);
+}
+#liton_forth_section {
+    padding: 50px 0;
+}
+#liton_forth_section img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#liton_forth_section h4 {
+    color: var(--black-color);
+    font-size: 23px;
+    font-weight: 600;
+}
+#liton_fifth_section {
+    padding: 50px;
+    background-color: var(--div-color-two);
+    border-radius: 10px;
+}
+#liton_sixth_section {
+    padding: 50px 0;
+}
+#liton_sixth_section img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#liton_seventh_section {
+    padding: 50px;
+    background-color: var(--div-color-one);
+    border-radius: 10px;
+}
+#liton_eighth_section {
+    padding: 50px 0;
+}
+#liton_eighth_section img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#liton_nineth_section {
+    padding: 50px;
+    background-color: var(--offwhite-color);
+    border-radius: 10px;
+}
+#liton_tenth_section {
+    padding: 50px 0;
+}
+#liton_tenth_section img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#liton_eleven_section {
+    padding: 50px;
+    background-color: var(--div-color-one);
+    border-radius: 10px;
+}
+#liton_twelve_section {
+    padding: 50px 0;
+}
+#liton_twelve_section img {
+    width: 100%;
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #liton_first_section {
+        padding: 30px 0;
+    }
+    #liton_second_section {
+        padding: 30px 0;
+    }
+    #liton_third_section {
+        padding: 30px;
+    }
+    #liton_forth_section {
+        padding: 30px 0;
+    }
+    #liton_fifth_section {
+        padding: 30px;
+    }
+    #liton_sixth_section {
+        padding: 30px 0;
+    }
+    #liton_seventh_section {
+        padding: 30px;
+    }
+    #liton_eighth_section {
+        padding: 30px 0;
+    }
+    #liton_nineth_section {
+        padding: 30px;
+    }
+    #liton_tenth_section {
+        padding: 30px 0;
+    }
+    #liton_eleven_section {
+        padding: 30px;
+    }
+    #liton_twelve_section {
+        padding: 30px 0;
+    }
+}
+/* Liton Page */
+
+
+/* About Us */
+#about_first_section {
+    padding: 50px 0;
+}
+#about_second_section {
+    padding: 50px 0;
 }
 #about_second_section img {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
-}
+} 
 #about_third_section {
+    padding: 50px;
     background-color: var(--div-color-one);
     border-radius: 10px;
-    padding: 60px;
-}
-#about_third_section h4 {
-    color: var(--black-color);
-    font-size: 23px;
-    font-weight: 600;
-}
-#about_third_section p {
-    color: var(--black-color);
 }
 #about_forth_section {
-    padding: 60px 0;
+    padding: 50px 0;
 }
 #about_forth_section img {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
 }
-#about_forth_section h4 {
-    color: var(--black-color);
-    font-size: 23px;
-    font-weight: 600;
-}
 #about_fifth_section {
-    padding: 60px;
+    padding: 50px;
     background-color: var(--div-color-two);
     border-radius: 10px;
 }
 #about_sixth_section {
-    padding: 60px 0;
-}
-#about_sixth_section img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    padding: 50px 0;
 }
 #about_seventh_section {
-    padding: 60px;
-    background-color: var(--div-color-one);
+    padding: 50px;
+    background-color: var(--offwhite-color);
     border-radius: 10px;
 }
 #about_eighth_section {
-    padding: 60px 0;
+    padding: 50px 0;
 }
 #about_eighth_section img {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
 }
-#about_nineth_section {
-    padding: 60px;
-    background-color: var(--offwhite-color);
+#about_ningth_section {
+    padding: 50px;
+    background-color: var(--div-color-one);
     border-radius: 10px;
 }
 #about_tenth_section {
-    padding: 60px 0;
+    padding: 50px 0;
 }
 #about_tenth_section img {
     width: 100%;
@@ -406,15 +517,12 @@ p {
     margin-bottom: 10px;
 }
 #about_eleven_section {
-    padding: 60px;
+    padding: 50px;
     background-color: var(--div-color-one);
     border-radius: 10px;
 }
 #about_twelve_section {
-    padding: 60px 0;
-}
-#about_twelve_section img {
-    width: 100%;
+    padding: 50px 0;
 }
 @media only screen and (min-width: 300px) and (max-width: 500px) {
     #about_first_section {
@@ -441,7 +549,7 @@ p {
     #about_eighth_section {
         padding: 30px 0;
     }
-    #about_nineth_section {
+    #about_ningth_section {
         padding: 30px;
     }
     #about_tenth_section {
@@ -452,9 +560,9 @@ p {
     }
     #about_twelve_section {
         padding: 30px 0;
-    }
+    } 
 }
-/* About Us Page */
+/* About Us */
 
 
 /* Contact Us Page */
