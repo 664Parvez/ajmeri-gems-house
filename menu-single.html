@@ -15,7 +15,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/css/style.css">
 
-    <title>Products</title>
+    <title>Single Menu</title>
 </head>
 <body>
     
@@ -132,205 +132,188 @@
         </div>
     </div>
 
-    <!-- Breadcrum -->
+
+     <!-- Breadcrum -->
       <div id="breadcrumb">
         <div class="container">
             <div class="text-center">
-                <h1>Products</h1>
-                <p><a href="/">Home</a> | Products</p>
+                <h1>Product Name</h1>
+                <p><a href="/">Home</a> | <a href="./shop.html">Products</a> | Product Name</p>
             </div>
         </div>
       </div>
      <!-- Breadcrum -->
 
 
-     <!-- Main Section -->
-      <div id="product_section">
-          <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div id="filtering_options">
-                        <h4 class="product_result">Showing 1–12 of 36 results</h4>
-                        <div class="filter_search">
-                            <label for="">Search...</label>
-                            <input type="text" class="form-control form-control-lg" placeholder="Search here . . .">
+    <!-- Main Section -->
+    <section>
+        <div id="product_single_page">
+            <div class="container">
+
+                <div id="single_food_show">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6">
+                            <img src="./public/img/pro2.webp" alt="">
                         </div>
-                        <div class="filter_by_price">
-                            <div class="d-flex justify-content-center align-items-center gap-4">
-                                <div>
-                                    <label for="">Min</label>
-                                    <input type="number" class="form-control form-control-lg" placeholder="0.00">
+                        <div class="col-lg-6 col-md-6">
+                            <h4>Ajmeri Gems House has the Finest Sulemani Hakik Stone Price in Bangladesh</h2>
+                            <h3 class="my-4 signle_product_price">৳ 2,000 <span>3,500</span></h3>
+                            <p>Are you searching for a dependable place to buy precious Gemstones of the highest caliber? Then no worries Ajmeri Gems House is offering here the best Sulemani Hakik stone price  in Bangladesh. This store offers a wide range of gemstones at affordable prices.</p>
+
+                            <p>Agate, also known as Hakik, is a special type of opaque stone that has healing properties. It’s believed to have astrological significance and can give a sense of satisfaction and positivity to the person who wears it. The stone gets its name from the Greek river Achates in Sicily, where it was first discovered by Greek philosophers around 300 years ago.</p>
+
+                            <div class="row my-5">
+                                <div class="col-lg-5">
+                                    <div class="d-flex justify-content-center align-items-center gap-2">
+                                        <button class="btn btn-lg count_increase"><i class="fa-solid fa-plus"></i></button>
+                                        <input type="text" class="form-control form-control-lg text-center" value="0">
+                                        <button class="btn btn-lg count_decrease"><i class="fa-solid fa-minus"></i></button>
+                                    </div>
                                 </div>
-                                <div>
-                                    <label for="">Max</label>
-                                    <input type="number" class="form-control form-control-lg" placeholder="100.00">
+                                <div class="col-lg-7"></div>
+                            </div>
+
+                            <div class="row align-items-center mt-2">
+                                <div class="col-lg-6">
+                                    <button class="btn btn-lg">Add To Cart</button>
+                                </div>
+                                <div class="col-lg-6">
+                                    <button class="btn btn-lg buy_now_btn">Buy Now</button>
                                 </div>
                             </div>
+    
+                            <p class="mt-4 mb-0">Category: <a href="">Korean</a></p>
+                            <p>Tag: <a href="">Vegan</a></p>
                         </div>
-                        <div class="filter_category">
-                            <h5>Categories</h5>
+                    </div>
+                </div>
+
+                <div id="single_description_review" class="my-5">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description-tab-pane" type="button" role="tab" aria-controls="description-tab-pane" aria-selected="true"><h4>Description</h4></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews-tab-pane" type="button" role="tab" aria-controls="reviews-tab-pane" aria-selected="false"><h4>Reviews (0)</h4></button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="description-tab-pane" role="tabpanel" aria-labelledby="description-tab" tabindex="0">
+                            <h3 class="my-4">Description</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores assumenda unde animi maxime repudiandae reiciendis, asperiores, amet delectus recusandae, itaque rerum dicta. Nisi, earum, recusandae omnis dignissimos doloribus repellendus ipsa expedita, amet natus dolores eveniet eum quod vero velit sunt odit vel animi sed ullam aperiam. Iure fuga dolorem perferendis.</p>
+                            <p>Agate, also known as Hakik, is a special type of opaque stone that has healing properties. It’s believed to have astrological significance and can give a sense of satisfaction and positivity to the person who wears it. The stone gets its name from the Greek river Achates in Sicily, where it was first discovered by Greek philosophers around 300 years ago. </p>
+                        </div>
+                        <div class="tab-pane fade" id="reviews-tab-pane" role="tabpanel" aria-labelledby="reviews-tab" tabindex="0">
+                            <h3 class="my-4">Reviews</h3>
+                            <div class="d-flex justify-content-start align-items-center gap-4">
+                                <div>
+                                    <img src="./public/img/weblogo.png.webp" class="reviewer_img" alt="">
+                                </div>
+                                <div>
+                                    <h5><b>Reviewr Name</b></h5>
+                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit repellendus possimus quisquam?1</p>
+                                </div>
+                            </div>
+
                             <hr>
-                            <ul>
-                                <li><a href=""><i class="fa-solid fa-arrow-right"></i> Category 1</a></li>
-                                <li><a href=""><i class="fa-solid fa-arrow-right"></i> Category 2</a></li>
-                                <li><a href=""><i class="fa-solid fa-arrow-right"></i> Category 3</a></li>
-                                <li><a href=""><i class="fa-solid fa-arrow-right"></i> Category 4</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-9">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6">
-                            <div id="product_div">
-                                <div class="card">
-                                    <a href="./menu-single.html">
-                                        <img src="./public/img/pro4.webp" class="card-img" alt="">
-                                    </a>
-                                    <h5>
-                                        <a href="./menu-single.html">
-                                            Affordable Golden Topaz Stone Price You Can Grab From Ajmeri Gems House...
-                                        </a>
-                                    </h5>
-                                    <h4 class="mt-3">Per Carat: <span class="price">৳ 850.00</span> <span class="regular_price">৳ 1350.00</span></h4>
-                                    <div class="d-flex justify-content-between align-items-center pt-3">
-                                        <div>
-                                            <a href="" class="btn">Add To Cart</a>
+
+                            <div class="my-4">
+                                <form action="">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <label for="" class="mt-4">Your review *</label>
+                                            <textarea name="" rows="5" class="form-control form-control-lg" id="" placeholder="Write a review . . ." required></textarea>
                                         </div>
-                                        <div>
-                                            <a href="./menu-single.html" class="btn"><i class="fa-solid fa-eye"></i></a>
-                                            <a href="" class="btn"><i class="fa-solid fa-heart"></i></a>
+                                        <div class="col-lg-6">
+                                            <label for="" class="mt-4">Name *</label>
+                                            <input type="text" class="form-control form-control-lg" placeholder="Enter your name" required>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <label for="" class="mt-4">Email *</label>
+                                            <input type="text" class="form-control form-control-lg" placeholder="Enter your email" required>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div id="product_div">
-                                <div class="card">
-                                    <a href="">
-                                        <img src="./public/img/pro1.webp" class="card-img" alt="">
-                                    </a>
-                                    <h5>
-                                        <a href="">
-                                            Affordable Golden Topaz Stone Price You Can Grab From Ajmeri Gems House...
-                                        </a>
-                                    </h5>
-                                    <h4 class="mt-3">Per Carat: <span class="price">৳ 850.00</span> <span class="regular_price">৳ 1350.00</span></h4>
-                                    <div class="d-flex justify-content-between align-items-center pt-3">
-                                        <div>
-                                            <a href="" class="btn">Add To Cart</a>
-                                        </div>
-                                        <div>
-                                            <a href="" class="btn"><i class="fa-solid fa-eye"></i></a>
-                                            <a href="" class="btn"><i class="fa-solid fa-heart"></i></a>
-                                        </div>
+
+                                    <div class="mt-5">
+                                        <button type="submit" class="btn btn-lg">Submit</button>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div id="product_div">
-                                <div class="card">
-                                    <a href="">
-                                        <img src="./public/img/pro2.webp" class="card-img" alt="">
-                                    </a>
-                                    <h5>
-                                        <a href="">
-                                            Affordable Golden Topaz Stone Price You Can Grab From Ajmeri Gems House...
-                                        </a>
-                                    </h5>
-                                    <h4 class="mt-3">Per Carat: <span class="price">৳ 850.00</span> <span class="regular_price">৳ 1350.00</span></h4>
-                                    <div class="d-flex justify-content-between align-items-center pt-3">
-                                        <div>
-                                            <a href="" class="btn">Add To Cart</a>
-                                        </div>
-                                        <div>
-                                            <a href="" class="btn"><i class="fa-solid fa-eye"></i></a>
-                                            <a href="" class="btn"><i class="fa-solid fa-heart"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div id="product_div">
-                                <div class="card">
-                                    <a href="">
-                                        <img src="./public/img/pro3.webp" class="card-img" alt="">
-                                    </a>
-                                    <h5>
-                                        <a href="">
-                                            Affordable Golden Topaz Stone Price You Can Grab From Ajmeri Gems House...
-                                        </a>
-                                    </h5>
-                                    <h4 class="mt-3">Per Carat: <span class="price">৳ 850.00</span> <span class="regular_price">৳ 1350.00</span></h4>
-                                    <div class="d-flex justify-content-between align-items-center pt-3">
-                                        <div>
-                                            <a href="" class="btn">Add To Cart</a>
-                                        </div>
-                                        <div>
-                                            <a href="" class="btn"><i class="fa-solid fa-eye"></i></a>
-                                            <a href="" class="btn"><i class="fa-solid fa-heart"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div id="product_div">
-                                <div class="card">
-                                    <a href="">
-                                        <img src="./public/img/pro3.webp" class="card-img" alt="">
-                                    </a>
-                                    <h5>
-                                        <a href="">
-                                            Affordable Golden Topaz Stone Price You Can Grab From Ajmeri Gems House...
-                                        </a>
-                                    </h5>
-                                    <h4 class="mt-3">Per Carat: <span class="price">৳ 850.00</span> <span class="regular_price">৳ 1350.00</span></h4>
-                                    <div class="d-flex justify-content-between align-items-center pt-3">
-                                        <div>
-                                            <a href="" class="btn">Add To Cart</a>
-                                        </div>
-                                        <div>
-                                            <a href="" class="btn"><i class="fa-solid fa-eye"></i></a>
-                                            <a href="" class="btn"><i class="fa-solid fa-heart"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div id="product_div">
-                                <div class="card">
-                                    <a href="">
-                                        <img src="./public/img/pro3.webp" class="card-img" alt="">
-                                    </a>
-                                    <h5>
-                                        <a href="">
-                                            Affordable Golden Topaz Stone Price You Can Grab From Ajmeri Gems House...
-                                        </a>
-                                    </h5>
-                                    <h4 class="mt-3">Per Carat: <span class="price">৳ 850.00</span> <span class="regular_price">৳ 1350.00</span></h4>
-                                    <div class="d-flex justify-content-between align-items-center pt-3">
-                                        <div>
-                                            <a href="" class="btn">Add To Cart</a>
-                                        </div>
-                                        <div>
-                                            <a href="" class="btn"><i class="fa-solid fa-eye"></i></a>
-                                            <a href="" class="btn"><i class="fa-solid fa-heart"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div id="signle_related_product">
+                    <div class="text-start">
+                        <h2 class="mb-4">Related products</h2>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6 mt-3">
+                            <a href="./menu-single.html">
+                                <div class="card">
+                                    <img src="./public/img/pro2.webp" class="card-img" alt="">
+                                    <div class="card-body">
+                                        <h5>Juices</h5>
+                                        <hr>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div>
+                                                <p class="mb-0">$20.5</p>
+                                            </div>
+                                            <div>
+                                                <button class="btn btn-lg"><i class="fa-solid fa-bag-shopping"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-3">
+                            <a href="./menu-single.html">
+                                <div class="card">
+                                    <img src="./public/img/pro3.webp" class="card-img" alt="">
+                                    <div class="card-body">
+                                        <h5>Juices</h5>
+                                        <hr>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div>
+                                                <p class="mb-0">$20.5</p>
+                                            </div>
+                                            <div>
+                                                <button class="btn btn-lg"><i class="fa-solid fa-bag-shopping"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-3">
+                            <a href="./menu-single.html">
+                                <div class="card">
+                                    <img src="./public/img/pro4.webp" class="card-img" alt="">
+                                    <div class="card-body">
+                                        <h5>Juices</h5>
+                                        <hr>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div>
+                                                <p class="mb-0">$20.5</p>
+                                            </div>
+                                            <div>
+                                                <button class="btn btn-lg"><i class="fa-solid fa-bag-shopping"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-          </div>
-      </div>
-     <!-- Main Section -->
+        </div>
+    </section>
+    <!-- Main Section -->
+
+
 
 
 <!-- Footer -->
@@ -413,56 +396,56 @@
      </footer>
 
 
-    <!-- Back to Top -->
-    <button
-        type="button" class="btn btn-floating"
-        id="btn-back-to-top">
-        <i class="fas fa-arrow-up"></i>
-    </button>
-    <!-- Back to Top -->
+<!-- Back to Top -->
+<button
+    type="button" class="btn btn-floating"
+    id="btn-back-to-top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+<!-- Back to Top -->
 
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
-    <!-- Custom JS -->
-    <script src="./public/js/app.js"></script>
+<!-- Custom JS -->
+<script src="./public/js/app.js"></script>
 
-    <!-- Copyright Script -->
-    <script>
+<!-- Copyright Script -->
+<script>
 
-        //Get the button
-        let mybutton = document.getElementById("btn-back-to-top");
+    //Get the button
+    let mybutton = document.getElementById("btn-back-to-top");
 
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function () {
-            scrollFunction();
-        };
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+        scrollFunction();
+    };
 
-        function scrollFunction() {
-            if (
-                document.body.scrollTop > 20 ||
-                document.documentElement.scrollTop > 20
-            ) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
+    function scrollFunction() {
+        if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+        ) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
         }
-        // When the user clicks on the button, scroll to the top of the document
-        mybutton.addEventListener("click", backToTop);
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    mybutton.addEventListener("click", backToTop);
 
-        function backToTop() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
+    function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
 
-        const copyright = document.getElementById("copyDate")
-        
-        const copyDate = new Date().getFullYear()
-        copyright.innerText = copyDate
-    </script>
-    <!-- Copyright Script -->
+    const copyright = document.getElementById("copyDate")
+    
+    const copyDate = new Date().getFullYear()
+    copyright.innerText = copyDate
+</script>
+<!-- Copyright Script -->
 
 </body>
 </html>
