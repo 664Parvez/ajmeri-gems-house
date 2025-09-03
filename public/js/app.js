@@ -16,3 +16,8 @@ popupClose.addEventListener("click", () => {
     popup.style.display = "none"
 })
 
+
+function juice_img(image){
+    let main_img = document.querySelector('.main').src = image;
+}
+

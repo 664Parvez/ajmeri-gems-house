@@ -578,6 +578,10 @@ p {
     background-color: var(--second-color);
     color: var(--white-color);
 }
+#same_products_img img {
+    width: auto;
+    height: 100px;
+}
 #signle_related_product {
     padding-top: 60px;
 }
@@ -633,6 +637,9 @@ p {
     }
     #signle_related_product {
         padding-top: 30px;
+    }
+    .buy_now_btn {
+        margin-top: 10px;
     }
 }
 /* Menu Single */
