@@ -767,6 +767,25 @@ p {
 /* Favourite */
 
 
+/* Appointment */
+#appointment_form {
+    padding: 60px 0;
+}
+#appointment_form .btn {
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+#appointment_form .btn:hover {
+    background-color: var(--second-color);
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #appointment_form {
+        padding: 30px 0;
+    }
+}
+/* Appointment */
+
+
 /* Account */
 #account_page {
     padding: 60px 0;
