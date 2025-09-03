@@ -457,6 +457,30 @@ p {
 /* Liton Page */
 
 
+/* Products */
+#product_div {
+    padding-bottom: 25px;
+}
+#product_div h5 {
+    margin-top: 10px;
+}
+#product_div .card a {
+    color: #2F3192;
+}
+#product_div .card .price {
+    color: var(--second-color);
+}
+#product_div .card .btn {
+    background-color: var(--second-color);
+    color: var(--white-color);
+}
+#product_div .card .regular_price {
+    text-decoration: line-through;
+    font-size: 18px;
+}
+/* Products */
+
+
 /* About Us */
 #about_first_section {
     padding: 50px 0;
@@ -510,6 +534,9 @@ p {
 }
 #about_tenth_section {
     padding: 50px 0;
+}
+#product_div .card {
+    padding: 10px;
 }
 #about_tenth_section img {
     width: 100%;
