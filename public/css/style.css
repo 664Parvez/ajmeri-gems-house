@@ -425,6 +425,14 @@ p {
 #home_forth_section ul li a {
     color: var(--second-color);
 }
+#home_products {
+    padding: 50px 0;
+}
+#home_products h3 {
+    color: var(--second-color);
+    font-size: 40px;
+    margin-bottom: 20px;
+}
 #home_fifth_section {
     padding: 50px 0;
     background: linear-gradient(rgba(255, 255, 242, 0.5), rgba(255, 255, 242, 0.5)),url("../img/Graphic-tarot.png");
@@ -449,6 +457,49 @@ p {
     background-color: var(--second-color);
     color: var(--white-color);
 }
+#home_sixth_section {
+    padding: 50px 0;
+}
+#home_sixth_section img {
+    width: 100%;
+}
+#home_seven_section {
+    padding: 50px 0;
+    background: linear-gradient(rgba(255, 255, 242, 0.5), rgba(255, 255, 242, 0.5)),url("../img/bg-sd-tarot-pd.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#home_seven_section img {
+    width: 130px;
+}
+#home_eight_section {
+    padding: 50px 0;
+}
+#home_eight_section h3 {
+    font-size: 40px;
+    color: var(--second-color);
+    margin-bottom: 20px;
+}
+#home_eight_section img {
+    width: 100px;
+}
+#home_ninth_section {
+    padding: 50px 0;
+}
+#home_ninth_section h3 {
+    font-size: 40px;
+    color: var(--second-color);
+    margin-bottom: 20px;
+}
+#home_ninth_section .btn {
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+#home_ninth_section .btn:hover {
+    background-color: var(--second-color);
+    color: var(--white-color);
+}
 @keyframes roundAnimation {
     0% {
         transform: rotate(0deg);
@@ -467,6 +518,70 @@ p {
     100% {
         transform: translateY(20px);
     }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+   #home_first_section {
+    padding: 30px 0;
+   } 
+   #home_first_section img {
+    margin-top: 20px;
+   }
+   #home_second_section {
+    padding: 30px 0;
+   } 
+   #home_second_section h2 {
+    font-size: 40px;
+   }
+   #home_third_section {
+    padding: 30px 0;
+   } 
+   #home_second_section h3 {
+    font-size: 30px;
+   }
+   #home_forth_section {
+    padding: 30px 0;
+   }
+   #home_products #product_div {
+    margin-bottom: 20px;
+   }
+   #home_third_section h3 {
+    font-size: 30px;
+   }
+   #home_offer h3 {
+    font-size: 30px;
+   } 
+   #home_offer h3 span {
+    font-size: 40px;
+   } 
+   #home_products {
+    padding: 30px 0;
+   } 
+   #home_fifth_section {
+    padding: 30px 0;
+   } 
+   #home_forth_section h3 {
+    font-size: 30px;
+   }
+   #home_fifth_section h3 {
+    font-size: 30px;
+    margin-top: 20px;
+   }
+   #home_sixth_section {
+    padding: 30px 0;
+   } 
+   #home_seven_section {
+    padding: 30px 0;
+   } 
+   #home_eight_section {
+    padding: 30px 0;
+   } 
+   #home_ninth_section {
+    padding: 30px 0;
+   }
+   #home_ninth_section .card {
+    margin-top: 20px;
+   }
 }
 
 /* Home Page */
