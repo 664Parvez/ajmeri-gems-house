@@ -21,10 +21,12 @@ ul {
 }
 a {
     text-decoration: none;
+    font-size: 18px;
 }
 
 p {
 	font-weight: 400;
+    font-size: 18px;
 }
 
 .form-control:focus {
@@ -309,6 +311,131 @@ p {
 #breadcrumb p a {
     color: var(--first-color);
 }
+
+
+/* Home Page */
+#home_first_section {
+    padding: 50px 0;
+    background: linear-gradient(rgba(255, 255, 242, 0.5), rgba(255, 255, 242, 0.5)),url("../img/bg-sd-tarot-pd.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#home_first_section h1 {
+    color: var(--second-color);
+    margin-bottom: 20px;
+}
+#home_first_section img {
+    width: 100%;
+}
+#home_first_section .btn {
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+#home_first_section .btn:hover {
+    background-color: var(--second-color);
+    color: var(--white-color);
+}
+
+#home_second_section {
+    padding: 50px 0;
+    background: linear-gradient(rgba(255, 255, 242, 0.5), rgba(255, 255, 242, 0.5)),url("../img/Graphic-tarot.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home_second_section h2 {
+    color: var(--second-color);
+    margin-bottom: 20px;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+#home_second_section h3 {
+    color: var(--first-color);
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+#home_second_section img {
+    width: 100%;
+    animation: roundAnimation linear 10s infinite;
+}
+#home_second_section .btn {
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+#home_second_section .btn:hover {
+    background-color: var(--second-color);
+    color: var(--white-color);
+}
+#home_offer {
+    padding: 50px 0;
+}
+#home_offer h3 {
+    font-size: 40px;
+    margin-top: 30px;
+}
+#home_offer h3 span {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--second-color);
+}
+#home_offer_image img {
+    width: 100%;
+}
+
+#home_third_section {
+    padding: 50px 0;
+    background: linear-gradient(rgba(255, 255, 242, 0.5), rgba(255, 255, 242, 0.5)),url("../img/bg-sd-tarot-pd.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#home_third_section h3 {
+    color: var(--second-color);
+    font-size: 40px;
+}
+#home_third_section img {
+    width: 100%;
+    border-radius: 10px;
+}
+#home_third_section .btn {
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+#home_third_section .btn:hover {
+    background-color: var(--second-color);
+    color: var(--white-color);
+}
+
+#home_forth_section {
+    padding: 50px 0;
+}
+#home_forth_section h3 {
+    color: var(--second-color);
+    font-size: 40px;
+    text-decoration: underline;
+}
+#home_forth_section img {
+    width: 100%;
+    margin-top: 20px;
+}
+#home_forth_section ul li {
+    padding: 10px 0;
+}
+#home_forth_section ul li a {
+    color: var(--second-color);
+}
+
+@keyframes roundAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Home Page */
 
 
 /* Liton Page */
