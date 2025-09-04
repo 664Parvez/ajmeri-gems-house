@@ -425,13 +425,47 @@ p {
 #home_forth_section ul li a {
     color: var(--second-color);
 }
-
+#home_fifth_section {
+    padding: 50px 0;
+    background: linear-gradient(rgba(255, 255, 242, 0.5), rgba(255, 255, 242, 0.5)),url("../img/Graphic-tarot.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home_fifth_section img {
+    width: 100%;
+    animation: upDownAnimation linear 3s infinite;
+}
+#home_fifth_section h3 {
+    font-size: 40px;
+    color: var(--second-color);
+    margin-bottom: 20px;
+}
+#home_fifth_section .btn {
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+#home_fifth_section .btn:hover {
+    background-color: var(--second-color);
+    color: var(--white-color);
+}
 @keyframes roundAnimation {
     0% {
         transform: rotate(0deg);
     }
     100% {
         transform: rotate(360deg);
+    }
+}
+@keyframes upDownAnimation {
+    0% {
+        transform: translateY(20px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(20px);
     }
 }
 
