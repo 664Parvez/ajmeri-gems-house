@@ -810,6 +810,9 @@ p {
     padding: 10px 0;
 }
 @media only screen and (min-width: 300px) and (max-width: 500px) {
+    #filtering_options .filter_by_price, .filter_category {
+        display: none;
+    }
     #product_section {
         padding: 30px 0;
     }
@@ -1823,6 +1826,9 @@ footer a {
 	footer .footer_menu_2 {
 		margin-bottom: 30px;
 	}
+    .footer_bottom p {
+        padding-bottom: 40px;
+    }
 }
 
 
