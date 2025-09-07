@@ -283,6 +283,11 @@ p {
 #sidebar_icon ul li a {
     color: var(--white-color);
 }
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #sidebar_icon {
+        display: none;
+    }
+}
 .search_form {
     position: fixed;
     width: 350px;
@@ -1821,6 +1826,39 @@ footer a {
 }
 
 
+/* Bottom Bar */
+#bottombar_icon {
+    background-color: var(--offwhite-color);
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    padding: 10px 8px;
+    text-align: center;
+    z-index: 900;
+    display: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#bottombar_icon ul {
+    display: flex;
+    justify-content: space-around;
+}
+#bottombar_icon ul li a {
+    color: var(--first-color);
+}
+#bottombar_icon sup {
+    color: var(--second-color);
+    padding: 2px;
+    border-radius: 50%;
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #bottombar_icon {
+        display: block;
+    }
+}
+
+
+
 #btn-back-to-top {
     position: fixed;
     bottom: 10px;
@@ -1831,4 +1869,9 @@ footer a {
 }
 #btn-back-to-top i {
     color: var(--white-color);
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #btn-back-to-top {
+        bottom: 60px;
+    }
 }
