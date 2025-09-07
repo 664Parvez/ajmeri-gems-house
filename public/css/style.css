@@ -299,6 +299,9 @@ p {
     height: 80px;
     border-radius: 5px;
 }
+.search_form .fa-times {
+    color: var(--black-color);
+}
 .search_form h5 {
     color: var(--red-color);
     font-weight: 600;

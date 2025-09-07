@@ -10,14 +10,20 @@ offerImg.forEach((items) => {
     })
 })
 
-const popupClose = document.getElementById("popup_close")
+const search_form = document.querySelector(".search_form")
+const searchIcon = document.querySelector(".searchIcon")
+const faTimes = document.querySelector(".fa-times")
 
-popupClose.addEventListener("click", () => {
-    popup.style.display = "none"
-})
-
-
-function juice_img(image){
-    document.querySelector('.main').src = image;
-}
+searchIcon.addEventListener("click", (e) => 
+    {
+        search_form.classList.add("search_form_hide")
+        e.preventDefault()
+    }
+)
+faTimes.addEventListener("click", (e) => 
+    {
+        search_form.classList.remove("search_form_hide")
+        e.preventDefault()
+    }
+)
 
