@@ -439,6 +439,12 @@ p {
 #home_forth_section ul li a {
     color: var(--second-color);
 }
+#home_forth_section #home_forth_box .card a i {
+    color: var(--second-color);
+}
+#home_forth_section #home_forth_box .card a h5 {
+    color: var(--first-color);
+}
 #home_products {
     padding: 50px 0;
 }
@@ -1054,7 +1060,7 @@ p {
 
 /* Form */
 #contact_first_section {
-    padding: 60px 0;
+    padding: 40px 0;
 }
 #contact_first_section h2 {
     font-size: 60px;
@@ -1465,7 +1471,7 @@ p {
 
 /* Blog */
 #blog_page {
-    padding: 60px 0;
+    padding: 50px 0;
 }
 #blog_side .card h4 {
     color: var(--second-color);
@@ -1546,7 +1552,7 @@ p {
 
 /* Single Blog */
 #blog_single_page {
-    padding: 60px 0;
+    padding: 50px 0;
 }
 #single_blog_write {
     padding-bottom: 30px;
@@ -1798,8 +1804,15 @@ footer a {
 	color: var(--white-color);
 }
 
+.footer_bottom {
+    background-color: var(--offwhite-color);
+    padding: 5px 0;
+}
+.footer_bottom a {
+    color: var(--black-color);
+}
 .footer_bottom a:hover {
-	color: var(--offwhite-color);
+	color: var(--first-color);
 }
 .footer_social_icon .footer_social_media li {
     display: inline-block;
