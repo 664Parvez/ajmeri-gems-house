@@ -27,3 +27,7 @@ faTimes.addEventListener("click", (e) =>
     }
 )
 
+function singleProduct(image){
+    document.querySelector('.main').src = image;
+}
+
